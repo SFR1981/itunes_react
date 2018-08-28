@@ -14,6 +14,18 @@
   color: white;
 }
 
+
+img{
+  width: 8.24533vw;
+  transition: 2s;
+}
+
+img:hover {
+  width: 28.24533vw;
+  transition: 2s;
+  transform: rotate(360deg);
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -22,7 +34,7 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+@keyframes  {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
